@@ -5,6 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = '01686c55b426db5e7e04277274cd1033'
+#random comment
 
 posts = [
     {
